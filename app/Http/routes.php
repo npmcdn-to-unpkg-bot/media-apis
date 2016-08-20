@@ -38,7 +38,7 @@ Route::auth();
 * Customer management
 */
 
-Route::get('/customers', 'CustomerController@customers');s
+Route::get('/customers', 'CustomerController@customers');
 
 Route::patch('/customer', 'CustomerController@update');
 /**
