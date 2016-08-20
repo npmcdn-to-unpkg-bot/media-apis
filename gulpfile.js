@@ -14,6 +14,4 @@ require('elixir-react-jsx');
 
 elixir(function(mix) {
     mix.sass('app.scss');
-
-    mix.jsx('components/*.jsx');
 });

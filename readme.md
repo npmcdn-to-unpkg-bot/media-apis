@@ -6,12 +6,17 @@
 3. $ php artisan migrate (migrate dbs)
 4. $ webpack
 
-V app/Http/routes.php su vsetky edpointy
+##app
+V app/Http/routes.php su vsetky **edpointy**
 
 ---
-
 API endpoint : /project/id/detail vrati vsetko o projekte, commenty, customera, project details atd..
-
 ---
+##js
+v /resources/assets/js je cela material appka source
+v /public/js/bundle.js je kompilovana verzia celej material app
 
-v /resources/js je cela material appka, tam je kompilovana cez webpack ktory ma config v roote
+Vsetko je v webpack.config.js co sa tyka js
+
+##sass -> css
+$ gulp
