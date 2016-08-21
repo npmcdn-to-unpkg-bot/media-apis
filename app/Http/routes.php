@@ -72,8 +72,8 @@ Route::get('/project/{id}/revenues', "ProjectController@revenues");
 */
 
 // called from detail view
-Route::patch('/revenue/{id}', 'RevenueController@update');
-Route::post('/revenue', 'RevenueController@create');
+//Route::patch('/revenue/{id}', 'RevenueController@update');
+Route::post('/revenue', 'RevenueController@createOrUpdate');
 
 /**
 *
@@ -83,8 +83,8 @@ Route::post('/revenue', 'RevenueController@create');
 */
 
 //called from detail view
-Route::patch('/cost/{id}', 'CostController@update');
-Route::post('/cost', 'CostController@create');
+//Route::patch('/cost/{id}', 'CostController@update');
+Route::post('/cost', 'CostController@createOrUpdate');
 
 /**
 *
