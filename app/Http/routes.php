@@ -59,6 +59,10 @@ Route::get('/project/{id}/detail', 'ProjectController@detail');
 // RETURNS ALL PROJECTS
 Route::get('/projects', 'ProjectController@projects');
 
+
+Route::get('/project/{id}/costs', "ProjectController@costs");
+Route::get('/project/{id}/revenues', "ProjectController@revenues");
+
 /**
 *
 * Revenues
